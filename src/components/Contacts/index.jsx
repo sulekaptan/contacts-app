@@ -12,7 +12,7 @@ const Contacts = () => {
 
   return (
     <div>
-        <List/>
+        <List contacts={contacts}/>
         <Form addContact={setContacts} contacts={contacts}/>
     </div>
   )

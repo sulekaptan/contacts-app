@@ -1,9 +1,13 @@
 import React from 'react'
 
-const List = () => {
+function List ({contacts}) {
   return (
     <div>
-        Contact List
+        <ul>
+          {contacts.map((contact, index) => (
+               <li key={index}>{contact.fullname} - {contact.phone_number}</li>
+            ))}
+        </ul>
     </div>
   )
 }
