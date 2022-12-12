@@ -2,7 +2,7 @@
 
 Live Server: [https://sulekaptan-contacts-app.netlify.app/](https://sulekaptan-contacts-app.netlify.app/)
 <br/>
-It is a basic application designed to promote useState and useEffect usage.
+It is a basic application designed to reinforce useState and useEffect usage.
 <i>from patika.dev</i>
 
 
