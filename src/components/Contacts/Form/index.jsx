@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 const initialFormValues = {fullname: '', phone_number: ''}
 
@@ -34,8 +34,8 @@ function Form({addContact, contacts}) {
         <div>
              <input name='phone_number' value={form.phone_number} onChange={handleChange} placeholder='Phone Number'/>
         </div>
-        <div>
-            <button>Save</button>
+        <div className='btn'>
+            <button >Save</button>
         </div>
     </form>
   )
