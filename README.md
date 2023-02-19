@@ -1,21 +1,30 @@
 # Contacts App
 
-Live Server: [https://sulekaptan-contacts-app.netlify.app/](https://sulekaptan-contacts-app.netlify.app/)
-<br/>
-It is a basic application designed to reinforce useState and useEffect usage.
-<i>from patika.dev</i>
+## Run Locally 
 
+Clone the project  
 
-In the project directory, you can run:
-#### `npm start`
+~~~bash  
+git clone https://github.com/sulekaptan/contacts-app.git
+~~~
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Go to the project directory  
 
-#### `npm test`
+~~~bash  
+cd contacts-app
+~~~
 
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install dependencies  
 
-#### `npm run build`
+~~~bash  
+npm install
+~~~
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start the project  
 
+~~~bash  
+npm start
+~~~  
+
+## Live Server
+https://sulekaptan-contacts-app.netlify.app
